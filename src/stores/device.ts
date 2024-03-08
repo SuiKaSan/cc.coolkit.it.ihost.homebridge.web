@@ -17,7 +17,8 @@ export const deviceCategoryMap = new Map<string, string>([
     ['temperatureAndHumiditySensor', t('CATEGORY.TEMP_HUM')],
     ['waterLeakDetector', t('CATEGORY.WATER_DETECT')],
     ['curtain', t('CATEGORY.CURTAIN')],
-    ['fanLight', t('CATEGORY.FAN_LIGHT')]
+    ['fanLight', t('CATEGORY.FAN_LIGHT')],
+    ['thermostat', t('CATEGORY.THERMOSTAT')],
 ]);
 // Device Type Classification
 export const categoryMap = new Map([
@@ -25,6 +26,7 @@ export const categoryMap = new Map([
     [t('DEVICES.LIGHT'), ['light']],
     [t('DEVICES.SENSOR'), ['smokeDetector', 'contactSensor', 'motionSensor', 'temperatureSensor', 'humiditySensor', 'temperatureAndHumiditySensor', 'waterLeakDetector']],
     [t('DEVICES.CURTAIN'), ['curtain']],
+    [t('DEVICES.THERMOSTAT'), ['thermostat']],
     [t('DEVICES.OTHER_DEVICES'), ['fanLight']],
     [t('DEVICES.NO_SUPPORTED'), []]
 ]);

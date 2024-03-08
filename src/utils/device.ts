@@ -8,7 +8,7 @@ const { t } = i18n.global;
 
 // Get the device default name
 const getDeviceDefaultName = (manufacturer: string, category: string) => {
-    return manufacturer + deviceCategoryMap.get(category);
+    return `${manufacturer} ${deviceCategoryMap.get(category)}`;
 };
 
 //	Get openapi device according to access_token

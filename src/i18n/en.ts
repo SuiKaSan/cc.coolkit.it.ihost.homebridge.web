@@ -31,6 +31,7 @@ export default {
         TIP: 'Selected devices will be displayed in HomeKit.',
         NO_DEVICE: 'No device',
         SWITCH: 'Switch',
+        THERMOSTAT: 'Thermostatic Radiator Valves',
         LIGHT: 'Light',
         SENSOR: 'Sensor',
         CURTAIN: 'Curtain',
@@ -50,6 +51,7 @@ export default {
         HUM: 'Humidity Sensor',
         PIR_DETECT: 'Motion Sensor',
         DOOR_DETECT: 'Door/Window Sensor',
-        FAN_LIGHT: 'fanLight'
+        FAN_LIGHT: 'FanLight',
+        THERMOSTAT: 'Thermostatic Radiator Valves'
     }
 };
