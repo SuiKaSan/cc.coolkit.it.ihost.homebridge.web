@@ -31,6 +31,7 @@ export default {
         TIP: '取消选中设备，设备将不会显示在 HomeKit',
         NO_DEVICE: '暂无设备',
         SWITCH: '开关插座',
+        THERMOSTAT: '温控阀',
         LIGHT: '灯',
         SENSOR: '传感器',
         CURTAIN: '窗帘',
@@ -50,6 +51,7 @@ export default {
         HUM: '湿度传感器',
         PIR_DETECT: 'PIR 传感器',
         DOOR_DETECT: '门磁',
-        FAN_LIGHT: '风扇灯'
+        FAN_LIGHT: '风扇灯',
+        THERMOSTAT: '温控阀'
     }
 };
